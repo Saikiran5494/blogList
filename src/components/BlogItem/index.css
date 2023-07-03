@@ -1,0 +1,24 @@
+/* Write your CSS code here */
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #9aa5b1;
+}
+
+.title {
+  font-size: 20px;
+  color: #12022f;
+}
+
+.item-container {
+  margin: 15px;
+  border-bottom: 1px solid #616e7c;
+}
+
+@media screen and (min-width: 768px) {
+  .item-container {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}

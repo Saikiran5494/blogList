@@ -1,0 +1,9 @@
+/* Write your CSS code here */
+.blogItem-container {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  list-style-type: none;
+  width: 100%;
+}
